@@ -32,7 +32,6 @@ jobs:
     name: Build and Push Docker Image
     runs-on: ubuntu-latest
     steps:
-    # Checkout the repo
    - uses: actions/checkout@master
 
    - name: Set up Docker Buildx
